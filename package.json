@@ -1,0 +1,17 @@
+{
+  "name": "sql_server_toolz",
+  "version": "1.0.0",
+  "description": "NAME ====",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"find_undocumented": "node -r @std/esm ./bin/find_undocumented.mjs"
+  },
+  "author": "Evan Carroll <me@evancarroll.com> (http://www.evancarroll.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "@std/esm": "^0.18.0",
+    "mssql": "^4.1.0",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
